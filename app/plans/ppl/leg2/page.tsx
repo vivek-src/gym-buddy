@@ -63,8 +63,8 @@ export default function DayFiveLegsVariationPage() {
       sets: "3 Working Sets",
       reps: "8–12 Reps",
       images: [
-        { src: "images/legpress-1.gif" },
         { src: "images/legpress-2.webp" },
+        { src: "images/legpress-2.gif" },
       ],
     },
 
@@ -80,7 +80,7 @@ export default function DayFiveLegsVariationPage() {
       alternatives: ["Reverse Lunges", "Bulgarian Split Squats", "Step-Ups"],
       sets: "3 Working Sets",
       reps: "10–12 Each Leg",
-      images: [{ src: "images/lunge-1.gif" }, { src: "images/lunge-2.webp" }],
+      images: [{ src: "images/lunges-1.gif" }, { src: "images/lunges-2.webp" }],
     },
 
     {
@@ -95,14 +95,11 @@ export default function DayFiveLegsVariationPage() {
       alternatives: ["Single-Leg Extension", "Resistance Band Extensions"],
       sets: "3 Working Sets",
       reps: "12–15 Reps",
-      images: [
-        { src: "images/extension-1.gif" },
-        { src: "images/extension-2.webp" },
-      ],
+      images: [{ src: "images/legext-1.gif" }, { src: "images/legext-2.gif" }],
     },
 
     {
-      name: "Leg Curl (Seated / Lying)",
+      name: "Leg Curl (Seated / Lying) / RDL",
       description:
         "Strengthens hamstrings to balance quad-dominant movements and protect the knees.",
       keyPoints: [
@@ -113,7 +110,10 @@ export default function DayFiveLegsVariationPage() {
       alternatives: ["Romanian Deadlift", "Cable Leg Curl", "Swiss Ball Curl"],
       sets: "3 Working Sets",
       reps: "10–15 Reps",
-      images: [{ src: "images/curl-1.gif" }, { src: "images/curl-2.webp" }],
+      images: [
+        { src: "images/legcurl-1.gif" },
+        { src: "images/legcurl-2.gif" },
+      ],
     },
 
     {

@@ -74,10 +74,7 @@ export default function DaySixBackVariationPage() {
       alternatives: ["Pull-Ups", "Neutral Grip Pulldown", "Assisted Pull-Ups"],
       sets: "3 Working Sets",
       reps: "8–12 Reps",
-      images: [
-        { src: "images/latpulldown-1.gif" },
-        { src: "images/latpulldown-2.webp" },
-      ],
+      images: [{ src: "images/latpd-2.gif" }, { src: "images/latpd-3.gif" }],
     },
 
     {
@@ -96,10 +93,7 @@ export default function DaySixBackVariationPage() {
       ],
       sets: "3 Working Sets",
       reps: "6–10 Reps",
-      images: [
-        { src: "images/cablerow-1.gif" },
-        { src: "images/bbrow-1.webp" },
-      ],
+      images: [{ src: "images/cablerow-1.gif" }, { src: "images/bbrow-1.gif" }],
     },
 
     {
@@ -115,8 +109,12 @@ export default function DaySixBackVariationPage() {
       sets: "3 Working Sets",
       reps: "10–15 Reps",
       images: [
-        { src: "images/pullover-1.gif" },
-        { src: "images/pullover-2.webp" },
+        {
+          src: "images/latpullover-1.gif",
+        },
+        {
+          src: "images/latpullover-2.gif",
+        },
       ],
     },
 
@@ -183,7 +181,7 @@ export default function DaySixBackVariationPage() {
       alternatives: ["Dumbbell Shrugs", "Smith Machine Shrugs"],
       sets: "3 Working Sets",
       reps: "10–15 Reps",
-      images: [{ src: "images/shrugs-1.gif" }, { src: "images/shrugs-2.webp" }],
+      images: [{ src: "images/shrug-1.webp" }, { src: "images/shrug-2.gif" }],
     },
   ];
 
