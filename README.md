@@ -50,13 +50,17 @@ A modern web app that helps gym-goers follow structured workout splits and calcu
    git clone https://github.com/viveek-sh/gym-buddy.git
    cd gym-buddy
    ```
-2. Run Using Docker
+2. Copy .env.example to .env
+  ```bash
+  cp .env.example .env
+  ```
+3. Run Using Docker
    ```bash
    docker build -t gym-buddy .
    docker run -d -p 3000:3000 --name gym-buddy gym-buddy
    ```
    > The app is now live at: http://localhost:3000
-3. or Run Using Node
+4. or Run Using Node
    ```bash
    npm install
    npm build
@@ -71,6 +75,5 @@ A modern web app that helps gym-goers follow structured workout splits and calcu
 - /screens → View screens
 - /lib → Utility helpers
 - /public → Static assets
-
 
 > 💪Gym-Buddy - a fun learning project built with modern tools and a passion for fitness.

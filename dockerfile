@@ -11,6 +11,9 @@ RUN npm install
 # Copy codebase
 COPY . .
 
+# Create .env from .env.example (if .env doesn't exist)
+RUN if [ -f .env.example ]; then cp .env.example .env; fi
+
 # Nextjs Build
 RUN npm run build
 
