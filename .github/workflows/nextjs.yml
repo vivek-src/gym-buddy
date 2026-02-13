@@ -32,6 +32,7 @@ jobs:
       - name: Build static Next.js site
         run: npm run build
         env:
+          GITHUB_PAGES: true
           NEXT_PUBLIC_CDN: ${{ secrets.NEXT_PUBLIC_CDN }}
           # ENV Variables here
 

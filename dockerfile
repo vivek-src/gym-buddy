@@ -1,23 +1,19 @@
-FROM node:22-alpine AS node
+FROM node:22-alpine
 
 WORKDIR /app
 
-# Dependencies
 COPY package.json package-lock.json* ./
-
-# Install dependencies 
 RUN npm install
 
-# Copy codebase
 COPY . .
 
-# Create .env from .env.example (if .env doesn't exist)
 RUN if [ -f .env.example ]; then cp .env.example .env; fi
 
-# Nextjs Build
+# IMPORTANT: No GITHUB_PAGES variable here
 RUN npm run build
+
+RUN npm install -g serve
 
 EXPOSE 3000
 
-# Start the app
-CMD ["npm", "start"]
+CMD ["serve", "-s", "dist", "-l", "3000"]

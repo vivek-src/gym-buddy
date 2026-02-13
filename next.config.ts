@@ -1,12 +1,13 @@
 import type { NextConfig } from "next";
 
-const isProd = process.env.NODE_ENV === "production";
+const isGithubPages = process.env.GITHUB_PAGES === "true";
 
 const nextConfig: NextConfig = {
   output: "export",
   distDir: "dist",
-  basePath: isProd ? "/gym-buddy" : "",
-  assetPrefix: isProd ? "/gym-buddy/" : "",
+  basePath: isGithubPages ? "/gym-buddy" : "",
+  assetPrefix: isGithubPages ? "/gym-buddy/" : "",
+  trailingSlash: true,
   images: {
     unoptimized: true,
     remotePatterns: [
