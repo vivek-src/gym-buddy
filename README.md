@@ -51,9 +51,11 @@ A modern web app that helps gym-goers follow structured workout splits and calcu
    cd gym-buddy
    ```
 2. Copy .env.example to .env
-  ```bash
-  cp .env.example .env
-  ```
+
+```bash
+cp .env.example .env
+```
+
 3. Run Using Docker
    ```bash
    docker build -t gym-buddy .
@@ -63,8 +65,8 @@ A modern web app that helps gym-goers follow structured workout splits and calcu
 4. or Run Using Node
    ```bash
    npm install
-   npm build
-   npm start
+   npm run build
+   npx serve dist
    ```
    > The app is now live at: http://localhost:3000
 
