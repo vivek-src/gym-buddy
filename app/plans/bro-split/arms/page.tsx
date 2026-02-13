@@ -1,6 +1,8 @@
 import { WorkoutOutlineTable } from "@/components/WorkoutPlan";
 import { WorkoutCard } from "@/components/WorkoutCard";
 
+const cdn = process.env.NEXT_PUBLIC_CDN;
+
 export default function ArmsDayPage() {
   const armsWorkouts = [
     // BICEPS + TRICEPS ALTERNATING
@@ -74,8 +76,8 @@ export default function ArmsDayPage() {
       sets: "3 Working Sets",
       reps: "8–12 Reps",
       images: [
-        { src: "https://gymbuddy.cdn.viveksahu.dev/images/preacher-1.gif" },
-        { src: "https://gymbuddy.cdn.viveksahu.dev/images/preacher-2.webp" },
+        { src: "images/preacher-1.gif" },
+        { src: "images/preacher-2.webp" },
       ],
     },
 
@@ -97,8 +99,8 @@ export default function ArmsDayPage() {
       sets: "3 Working Sets",
       reps: "10–15 Reps",
       images: [
-        { src: "https://gymbuddy.cdn.viveksahu.dev/images/pushdown-1.gif" },
-        { src: "https://gymbuddy.cdn.viveksahu.dev/images/pushdown-2.webp" },
+        { src: "images/pushdown-1.gif" },
+        { src: "images/pushdown-2.webp" },
       ],
     },
 
@@ -120,9 +122,9 @@ export default function ArmsDayPage() {
       sets: "3 Working Sets",
       reps: "8–12 Reps",
       images: [
-        { src: "https://gymbuddy.cdn.viveksahu.dev/images/incline-curl-1.gif" },
+        { src: "images/incline-curl-1.gif" },
         {
-          src: "https://gymbuddy.cdn.viveksahu.dev/images/incline-curl-2.webp",
+          src: "images/incline-curl-2.webp",
         },
       ],
     },
@@ -145,8 +147,8 @@ export default function ArmsDayPage() {
       sets: "3 Working Sets",
       reps: "10–15 Reps",
       images: [
-        { src: "https://gymbuddy.cdn.viveksahu.dev/images/overhead-ext-1.gif" },
-        { src: "https://gymbuddy.cdn.viveksahu.dev/images/overhead-ext-2.gif" },
+        { src: "images/overhead-ext-1.gif" },
+        { src: "images/overhead-ext-2.gif" },
       ],
     },
 
@@ -168,8 +170,8 @@ export default function ArmsDayPage() {
       sets: "3 Working Sets",
       reps: "8–12 Reps",
       images: [
-        { src: "https://gymbuddy.cdn.viveksahu.dev/images/hammer-1.webp" },
-        { src: "https://gymbuddy.cdn.viveksahu.dev/images/hammer-2.gif" },
+        { src: "images/hammer-1.webp" },
+        { src: "images/hammer-2.gif" },
       ],
     },
 
@@ -191,8 +193,8 @@ export default function ArmsDayPage() {
       sets: "3 Working Sets",
       reps: "8–12 Reps",
       images: [
-        { src: "https://gymbuddy.cdn.viveksahu.dev/images/skullcrusher-1.gif" },
-        { src: "https://gymbuddy.cdn.viveksahu.dev/images/skullcrusher-2.gif" },
+        { src: "images/skullcrusher-1.gif" },
+        { src: "images/skullcrusher-2.gif" },
       ],
     },
   ];

@@ -82,10 +82,7 @@ export default function LegsDayPage() {
       alternatives: ["Goblet Squat", "Front Squat", "Smith Machine Squat"],
       sets: "3 Working Sets",
       reps: "6–10 Reps",
-      images: [
-        { src: "https://gymbuddy.cdn.viveksahu.dev/images/squat-1.webp" },
-        { src: "https://gymbuddy.cdn.viveksahu.dev/images/squat-2.gif" },
-      ],
+      images: [{ src: "images/squat-1.webp" }, { src: "images/squat-2.gif" }],
     },
 
     {
@@ -100,10 +97,7 @@ export default function LegsDayPage() {
       alternatives: ["Barbell Back Squat", "Smith Machine Squat"],
       sets: "3 Working Sets",
       reps: "10–15 Reps",
-      images: [
-        { src: "https://gymbuddy.cdn.viveksahu.dev/images/goblet-1.gif" },
-        { src: "https://gymbuddy.cdn.viveksahu.dev/images/goblet-2.gif" },
-      ],
+      images: [{ src: "images/goblet-1.gif" }, { src: "images/goblet-2.gif" }],
     },
 
     {
@@ -118,10 +112,7 @@ export default function LegsDayPage() {
       alternatives: ["Front Squat", "Hack Squat", "Barbell Back Squat"],
       sets: "3 Working Sets",
       reps: "8–12 Reps",
-      images: [
-        { src: "https://gymbuddy.cdn.viveksahu.dev/images/hack-1.gif" },
-        { src: "https://gymbuddy.cdn.viveksahu.dev/images/hack-2.webp" },
-      ],
+      images: [{ src: "images/hack-1.gif" }, { src: "images/hack-2.webp" }],
     },
 
     {
@@ -137,8 +128,8 @@ export default function LegsDayPage() {
       sets: "3 Working Sets",
       reps: "10–15 Reps",
       images: [
-        { src: "https://gymbuddy.cdn.viveksahu.dev/images/legpress-2.webp" },
-        { src: "https://gymbuddy.cdn.viveksahu.dev/images/legpress-2.gif" },
+        { src: "images/legpress-2.webp" },
+        { src: "images/legpress-2.gif" },
       ],
     },
 
@@ -154,10 +145,7 @@ export default function LegsDayPage() {
       alternatives: ["Walking Lunges", "Step-Ups"],
       sets: "3 Working Sets",
       reps: "8–12 per leg",
-      images: [
-        { src: "https://gymbuddy.cdn.viveksahu.dev/images/bss-1.gif" },
-        { src: "https://gymbuddy.cdn.viveksahu.dev/images/bss-2.gif" },
-      ],
+      images: [{ src: "images/bss-1.gif" }, { src: "images/bss-2.gif" }],
     },
 
     {
@@ -168,10 +156,7 @@ export default function LegsDayPage() {
       alternatives: ["Sissy Squat", "Front Squat"],
       sets: "3 Working Sets",
       reps: "12–15 Reps",
-      images: [
-        { src: "https://gymbuddy.cdn.viveksahu.dev/images/legext-1.gif" },
-        { src: "https://gymbuddy.cdn.viveksahu.dev/images/legext-2.gif" },
-      ],
+      images: [{ src: "images/legext-1.gif" }, { src: "images/legext-2.gif" }],
     },
 
     {
@@ -187,8 +172,8 @@ export default function LegsDayPage() {
       sets: "3 Working Sets",
       reps: "12–15 Reps",
       images: [
-        { src: "https://gymbuddy.cdn.viveksahu.dev/images/legcurl-1.gif" },
-        { src: "https://gymbuddy.cdn.viveksahu.dev/images/legcurl-2.gif" },
+        { src: "images/legcurl-1.gif" },
+        { src: "images/legcurl-2.gif" },
       ],
     },
 
@@ -204,10 +189,7 @@ export default function LegsDayPage() {
       alternatives: ["Leg Press Calf Raises", "Smith Machine Calf Raises"],
       sets: "4 Working Sets",
       reps: "12–20 Reps",
-      images: [
-        { src: "https://gymbuddy.cdn.viveksahu.dev/images/calf-1.gif" },
-        { src: "https://gymbuddy.cdn.viveksahu.dev/images/calf-2.webp" },
-      ],
+      images: [{ src: "images/calf-1.gif" }, { src: "images/calf-2.webp" }],
     },
   ];
 

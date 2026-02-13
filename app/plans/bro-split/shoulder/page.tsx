@@ -56,10 +56,7 @@ export default function ShoulderDayPage() {
       ],
       sets: "3 Working Sets + Optional Warmup Sets",
       reps: "8–12 Reps",
-      images: [
-        { src: "https://gymbuddy.cdn.viveksahu.dev/images/ohp-1.webp" },
-        { src: "https://gymbuddy.cdn.viveksahu.dev/images/ohp-2.gif" },
-      ],
+      images: [{ src: "images/ohp-1.webp" }, { src: "images/ohp-2.gif" }],
     },
 
     // DB OHP
@@ -81,8 +78,8 @@ export default function ShoulderDayPage() {
       sets: "3 Working Sets",
       reps: "8–12 Reps",
       images: [
-        { src: "https://gymbuddy.cdn.viveksahu.dev/images/dbpress-1.gif" },
-        { src: "https://gymbuddy.cdn.viveksahu.dev/images/dbpress-2.gif" },
+        { src: "images/dbpress-1.gif" },
+        { src: "images/dbpress-2.gif" },
       ],
     },
 
@@ -106,10 +103,10 @@ export default function ShoulderDayPage() {
       reps: "10–15 Reps",
       images: [
         {
-          src: "https://gymbuddy.cdn.viveksahu.dev/images/cablelr-1.gif",
+          src: "images/cablelr-1.gif",
         },
         {
-          src: "https://gymbuddy.cdn.viveksahu.dev/images/cablelr-2.webp",
+          src: "images/cablelr-2.webp",
         },
       ],
     },
@@ -134,10 +131,10 @@ export default function ShoulderDayPage() {
       reps: "10–15 Reps",
       images: [
         {
-          src: "https://gymbuddy.cdn.viveksahu.dev/images/reversecable-1.gif",
+          src: "images/reversecable-1.gif",
         },
         {
-          src: "https://gymbuddy.cdn.viveksahu.dev/images/reversecable-2.gif",
+          src: "images/reversecable-2.gif",
         },
       ],
     },

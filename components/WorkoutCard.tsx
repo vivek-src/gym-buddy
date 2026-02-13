@@ -1,6 +1,7 @@
 import Image from "next/image";
 import { Card, CardContent } from "@/components/ui/card";
 import { Dumbbell, Camera, CheckCircle2, Shuffle } from "lucide-react";
+const CDN = process.env.NEXT_PUBLIC_CDN;
 
 interface FormImage {
   src: string;
@@ -63,10 +64,9 @@ export function WorkoutCard({
                   {exercise.images.map((img, i) => (
                     <div
                       key={i}
-                      className="relative overflow-hidden rounded-xl border border-zinc-800 bg-zinc-900/50 group"
-                    >
+                      className="relative overflow-hidden rounded-xl border border-zinc-800 bg-zinc-900/50 group">
                       <Image
-                        src={img.src}
+                        src={`${CDN}/${img.src}`}
                         alt={img.label || `${exercise.name} form ${i + 1}`}
                         width={500}
                         height={500}

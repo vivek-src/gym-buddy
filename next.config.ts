@@ -9,6 +9,12 @@ const nextConfig: NextConfig = {
   assetPrefix: isProd ? "/gym-buddy/" : "",
   images: {
     unoptimized: true,
+    remotePatterns: [
+      {
+        protocol: "https",
+        hostname: "gymbuddy.cdn.viveksahu.dev",
+      },
+    ],
   },
 };
 

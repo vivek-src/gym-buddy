@@ -67,8 +67,8 @@ export default function BackDayPage() {
       sets: "3 Working Sets",
       reps: "5–8 Reps",
       images: [
-        { src: "https://gymbuddy.cdn.viveksahu.dev/images/deadlift-1.gif" },
-        { src: "https://gymbuddy.cdn.viveksahu.dev/images/deadlift-2.webp" },
+        { src: "images/deadlift-1.gif" },
+        { src: "images/deadlift-2.webp" },
       ],
     },
 
@@ -84,10 +84,7 @@ export default function BackDayPage() {
       alternatives: ["Pull-Ups", "Assisted Pull-Ups", "Machine Pulldown"],
       sets: "3 Working Sets",
       reps: "8–12 Reps",
-      images: [
-        { src: "https://gymbuddy.cdn.viveksahu.dev/images/latpd-2.gif" },
-        { src: "https://gymbuddy.cdn.viveksahu.dev/images/latpd-3.gif" },
-      ],
+      images: [{ src: "images/latpd-2.gif" }, { src: "images/latpd-3.gif" }],
     },
 
     {
@@ -102,10 +99,7 @@ export default function BackDayPage() {
       alternatives: ["T-Bar Row", "Machine ISO-Lateral Row"],
       sets: "3 Working Sets",
       reps: "10–12 Reps",
-      images: [
-        { src: "https://gymbuddy.cdn.viveksahu.dev/images/dbrow-1.gif" },
-        { src: "https://gymbuddy.cdn.viveksahu.dev/images/dbrow-2.gif" },
-      ],
+      images: [{ src: "images/dbrow-1.gif" }, { src: "images/dbrow-2.gif" }],
     },
 
     {
@@ -125,8 +119,8 @@ export default function BackDayPage() {
       sets: "3 Working Sets",
       reps: "10–15 Reps",
       images: [
-        { src: "https://gymbuddy.cdn.viveksahu.dev/images/cablerow-1.gif" },
-        { src: "https://gymbuddy.cdn.viveksahu.dev/images/cablerow-3.gif" },
+        { src: "images/cablerow-1.gif" },
+        { src: "images/cablerow-3.gif" },
       ],
     },
 
@@ -144,10 +138,10 @@ export default function BackDayPage() {
       reps: "12–15 Reps",
       images: [
         {
-          src: "https://gymbuddy.cdn.viveksahu.dev/images/latpullover-1.gif",
+          src: "images/latpullover-1.gif",
         },
         {
-          src: "https://gymbuddy.cdn.viveksahu.dev/images/latpullover-2.gif",
+          src: "images/latpullover-2.gif",
         },
       ],
     },
@@ -164,10 +158,7 @@ export default function BackDayPage() {
       alternatives: ["Pendlay Row", "Underhand Row", "Dumbbell Row"],
       sets: "3 Working Sets",
       reps: "8–12 Reps",
-      images: [
-        { src: "https://gymbuddy.cdn.viveksahu.dev/images/bbrow-1.gif" },
-        { src: "https://gymbuddy.cdn.viveksahu.dev/images/bbrow-2.webp" },
-      ],
+      images: [{ src: "images/bbrow-1.gif" }, { src: "images/bbrow-2.webp" }],
     },
   ];
 

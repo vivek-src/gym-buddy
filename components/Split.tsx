@@ -4,6 +4,7 @@ import Image from "next/image";
 import Link from "next/link";
 import { ArrowRight } from "lucide-react";
 import { cn } from "@/lib/utils";
+const CDN = process.env.NEXT_PUBLIC_CDN;
 
 interface SplitCategory {
   title: string;
@@ -32,13 +33,12 @@ function SplitCard({
       href={href}
       className={cn(
         "group relative block overflow-hidden rounded-2xl transition-transform duration-500 ease-out hover:scale-[1.02]",
-        className
-      )}
-    >
+        className,
+      )}>
       {/* 🖼️ Full Image Background */}
       <div className="relative aspect-[4/3] w-full overflow-hidden">
         <Image
-          src={image}
+          src={`${CDN}/${image}`}
           alt={title}
           fill
           sizes="(max-width: 768px) 100vw, 33vw"
@@ -82,8 +82,7 @@ export default function SplitGrid({
             categories.length <= 4
               ? "sm:grid-cols-2 lg:grid-cols-2"
               : "sm:grid-cols-2 lg:grid-cols-3"
-          }`}
-        >
+          }`}>
           {categories.map((cat, i) => (
             <SplitCard key={i} {...cat} />
           ))}

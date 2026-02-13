@@ -64,10 +64,10 @@ export default function ChestDayPage() {
       reps: "8–12 Reps",
       images: [
         {
-          src: "https://gymbuddy.cdn.viveksahu.dev/images/Machine-Press-2.gif",
+          src: "images/Machine-Press-2.gif",
         },
         {
-          src: "https://gymbuddy.cdn.viveksahu.dev/images/Machine-Press-3.gif",
+          src: "images/Machine-Press-3.gif",
         },
       ],
     },
@@ -91,10 +91,10 @@ export default function ChestDayPage() {
       reps: "8–12 Reps",
       images: [
         {
-          src: "https://gymbuddy.cdn.viveksahu.dev/images/flat-bench-2.gif",
+          src: "images/flat-bench-2.gif",
         },
         {
-          src: "https://gymbuddy.cdn.viveksahu.dev/images/flat-bench-3.gif",
+          src: "images/flat-bench-3.gif",
         },
       ],
     },
@@ -117,10 +117,10 @@ export default function ChestDayPage() {
       reps: "8–12 Reps",
       images: [
         {
-          src: "https://gymbuddy.cdn.viveksahu.dev/images/incline-bench-2.gif",
+          src: "images/incline-bench-2.gif",
         },
         {
-          src: "https://gymbuddy.cdn.viveksahu.dev/images/incline-bench-3.gif",
+          src: "images/incline-bench-3.gif",
         },
       ],
     },
@@ -139,10 +139,10 @@ export default function ChestDayPage() {
       reps: "10–15 Reps",
       images: [
         {
-          src: "https://gymbuddy.cdn.viveksahu.dev/images/cable-crossover-1.gif",
+          src: "images/cable-crossover-1.gif",
         },
         {
-          src: "https://gymbuddy.cdn.viveksahu.dev/images/cable-crossover-2.gif",
+          src: "images/cable-crossover-2.gif",
         },
       ],
     },
@@ -159,10 +159,7 @@ export default function ChestDayPage() {
       alternatives: ["Weighted Dips", "Decline Bench Press", "Machine Dips"],
       sets: "3 Working Sets",
       reps: "8–12 Reps",
-      images: [
-        { src: "https://gymbuddy.cdn.viveksahu.dev/images/dips-2.gif" },
-        { src: "https://gymbuddy.cdn.viveksahu.dev/images/dips-3.avif" },
-      ],
+      images: [{ src: "images/dips-2.gif" }, { src: "images/dips-3.avif" }],
     },
   ];
 

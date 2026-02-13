@@ -7,42 +7,42 @@ const categories = [
     title: "Chest Day",
     description:
       "Target your chest with compound presses and isolation exercises for strength and fullness.",
-    image: "https://gymbuddy.cdn.viveksahu.dev/images/chest.jpg",
+    image: "images/chest.jpg",
     href: "/plans/bro-split/chest",
   },
   {
     title: "Back Day",
     description:
       "Develop a strong and wide back through rows, pull-ups, and deadlift variations.",
-    image: "https://gymbuddy.cdn.viveksahu.dev/images/back.jpg",
+    image: "images/back.jpg",
     href: "/plans/bro-split/back",
   },
   {
     title: "Shoulder Day",
     description:
       "Build capped delts with overhead presses, lateral raises, and rear delt work.",
-    image: "https://gymbuddy.cdn.viveksahu.dev/images/shoulder.jpg",
+    image: "images/shoulder.jpg",
     href: "/plans/bro-split/shoulder",
   },
   {
     title: "Arms Day",
     description:
       "Isolate your biceps and triceps with focused curls, extensions, and pump-inducing supersets.",
-    image: "https://gymbuddy.cdn.viveksahu.dev/images/arms.jpg",
+    image: "images/arms.jpg",
     href: "/plans/bro-split/arms",
   },
   {
     title: "Leg Day",
     description:
       "Hit quads, hamstrings, and glutes with squats, lunges, and heavy compound movements.",
-    image: "https://gymbuddy.cdn.viveksahu.dev/images/leg.jpg",
+    image: "images/leg.jpg",
     href: "/plans/bro-split/legs",
   },
   {
     title: "Core & Cardio",
     description:
       "End your week with light cardio and core work to improve stability and endurance.",
-    image: "https://gymbuddy.cdn.viveksahu.dev/images/core.jpg",
+    image: "images/core.jpg",
     href: "/plans/bro-split/core-cardio",
   },
 ];
@@ -138,7 +138,7 @@ export default function BroSplitPage() {
                 <p className="text-sm text-foreground">Day {i + 1}</p>
                 <h4 className="text-foreground font-medium">{day}</h4>
               </div>
-            )
+            ),
           )}
         </div>
       </section>
