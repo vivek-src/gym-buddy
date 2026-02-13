@@ -6,43 +6,43 @@ const categories = [
     title: "Push Day – 1",
     description:
       "Focus on chest, shoulders, and triceps with compound presses and controlled accessory movements.",
-    image: "/images/chest.jpg",
-    href: "/plans/push-day-1",
-  },
-  {
-    title: "Pull Day – 1",
-    description:
-      "Train your back and biceps with pull-ups, rows, and curls for balanced upper-body strength.",
-    image: "/images/back.jpg",
-    href: "/plans/pull-day-1",
+    image: "images/chest.jpg",
+    href: "/plans/ppl/push1",
   },
   {
     title: "Leg Day – 1",
     description:
       "Build lower-body power through squats, lunges, and leg curls — essential for total strength.",
-    image: "/images/leg.jpg",
-    href: "/plans/leg-day-1",
+    image: "images/leg.jpg",
+    href: "/plans/ppl/leg1",
+  },
+  {
+    title: "Pull Day – 1",
+    description:
+      "Train your back and biceps with pull-ups, rows, and curls for balanced upper-body strength.",
+    image: "images/back.jpg",
+    href: "/plans/ppl/pull1",
   },
   {
     title: "Push Day – 2",
     description:
       "Increase intensity with a new variation of push exercises focusing on volume and muscle endurance.",
-    image: "/images/shoulder.jpg",
-    href: "/plans/push-day-2",
-  },
-  {
-    title: "Pull Day – 2",
-    description:
-      "Hit the posterior chain again with rows and bicep-focused movements to reinforce strength symmetry.",
-    image: "/images/arms.jpg",
-    href: "/plans/pull-day-2",
+    image: "images/shoulder.jpg",
+    href: "/plans/ppl/push2",
   },
   {
     title: "Leg Day – 2",
     description:
       "Finish the week with lower-body hypertrophy — lighter weights, higher volume, perfect for recovery.",
-    image: "/images/leg.jpg",
-    href: "/plans/leg-day-2",
+    image: "images/leg.jpg",
+    href: "/plans/ppl/leg2",
+  },
+  {
+    title: "Pull Day – 2",
+    description:
+      "Hit the posterior chain again with rows and bicep-focused movements to reinforce strength symmetry.",
+    image: "images/arms.jpg",
+    href: "/plans/ppl/pull2",
   },
 ];
 
@@ -79,6 +79,22 @@ export default function PPLSplitPage() {
             and biceps; and leg days build lower-body strength. This structure
             ensures optimal recovery while increasing training frequency and
             volume for each muscle group.
+          </p>
+          <p className="text-muted-foreground leading-relaxed mt-6">
+            To maximize overall muscle development, try using different exercise
+            variations in Push 1 and Push 2. Changing angles and resistance
+            profiles helps recruit more muscle fibers and prevents plateaus. For
+            example, if you perform{" "}
+            <span className="text-foreground font-medium">
+              Incline Dumbbell Bench Press with Pec Deck Fly
+            </span>{" "}
+            on Push 1, then perform
+            <span className="text-foreground font-medium">
+              {" "}
+              Flat Barbell Bench Press with Cable Crossovers
+            </span>{" "}
+            on Push 2. This ensures both upper and mid-chest fibers are trained
+            effectively through different movement patterns.
           </p>
         </div>
       </section>
@@ -135,27 +151,25 @@ export default function PPLSplitPage() {
         <div className="grid sm:grid-cols-3 md:grid-cols-7 gap-4">
           {[
             { label: "Push", type: "train" },
-            { label: "Pull", type: "train" },
             { label: "Legs", type: "train" },
+            { label: "Pull", type: "train" },
             { label: "Rest", type: "rest" },
             { label: "Push", type: "train" },
-            { label: "Pull", type: "train" },
             { label: "Legs", type: "train" },
+            { label: "Pull", type: "train" },
           ].map((day, i) => (
             <div
               key={i}
               className={`rounded-xl border border-zinc-600 backdrop-blur-sm p-4 ${
                 day.type === "rest" ? "bg-transparent opacity-45" : "bg-card/40"
-              }`}
-            >
+              }`}>
               <p className="text-sm text-foreground">Day {i + 1}</p>
               <h4
                 className={`font-medium ${
                   day.type === "rest"
                     ? "text-muted-foreground flex items-center justify-center gap-1"
                     : "text-foreground"
-                }`}
-              >
+                }`}>
                 {day.type === "rest" ? (
                   <>
                     <Moon className="w-4 h-4" /> {day.label}
