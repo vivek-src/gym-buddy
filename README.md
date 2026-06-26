@@ -6,7 +6,7 @@ A modern web app that helps gym-goers follow structured workout splits and calcu
 
 ## 🔗 Live Demo
 
-**[Live Demo URL](https://viveek-sh.github.io/gym-buddy/)**
+**[Live Demo URL](https://vivek-src.github.io/gym-buddy/)**
 
 ## 🚀 Tech Stack
 
@@ -47,7 +47,7 @@ A modern web app that helps gym-goers follow structured workout splits and calcu
 
 1. Clone the repo
    ```bash
-   git clone https://github.com/viveek-sh/gym-buddy.git
+   git clone https://github.com/vivek-src/gym-buddy.git
    cd gym-buddy
    ```
 2. Copy .env.example to .env
